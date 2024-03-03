@@ -19,7 +19,7 @@ cities = [
 ]
 
 # Load the model
-pipe = pickle.load(open('C:/Users/gauta/Desktop/jupyter projects/ipl match prediction/pipe.pkl', 'rb'))
+pipe = pickle.load(open('pipe.pkl', 'rb'))
 
 
 # Streamlit app
